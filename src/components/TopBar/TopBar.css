@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #4a90e2;
+  color: #ffffff;
+  padding: 10px 40px;
+}
+
+header div.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 121px;
+}
+
+header div.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header div.controls img {
+  max-width: 24px;
+  border-radius: 50%;
+  background: #4d4d4d;
+  margin-left: 15px;
+}

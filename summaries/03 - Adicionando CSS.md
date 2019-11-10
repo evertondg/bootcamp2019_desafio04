@@ -18,3 +18,19 @@ Vá até o _webpack.config.js_ e adicione a seguinte regra em rules, abaixo das 
         ]
       }
 ```
+
+Crie um arquivo na pasta _src_ chamado App.css com o seguinte conteúdo:
+
+```css
+body {
+  background: #7159c1;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+```
+
+Agora basta importar o App.css dentro da Aplicação:
+
+```js
+import './App.css';
+```
