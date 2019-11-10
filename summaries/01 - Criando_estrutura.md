@@ -96,7 +96,8 @@ Como este arquivo _*bundle.js*_ sera transpilado toda vez que executar-mos o com
     <title>Everton Desafio 04 - Facebook</title>
   </head>
   <body>
-    <h1>Seja Bem-vindo!</h1>
+    <div class="app"></div>
+    <!-- Div responsável por receber a aplicação do src/index.js  -->
 
     <script src="./bundle.js"></script>
   </body>
