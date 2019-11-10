@@ -31,10 +31,11 @@ Lembre-se que toda vez que for utilizada a sintaxe de JSX devemos importar o **R
 
 Devemos importar nosso novo componentem para o index.js, que fica assim.
 
-```javascript
+```js
 import React from 'react'; // importa o React
 import { render } from 'react-dom';
 import App from './App'; // importanmos o componente App
 
-render(<App />, document.getElementById('app')); // Representamos o componente App como se fosse uma tag HTML.
+// Representamos o componente App como se fosse uma tag HTML.
+render(<App />, document.getElementById('app'));
 ```
