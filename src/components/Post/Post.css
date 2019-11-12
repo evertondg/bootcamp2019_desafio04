@@ -1,0 +1,58 @@
+.content > ul > li {
+  display: flex;
+  width: 700px;
+  padding: 20px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  list-style: none;
+  background: #fff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 14px -4px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 1px 14px -4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 1px 14px -4px rgba(0, 0, 0, 0.3);
+}
+
+.content > ul > li div.postHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+
+
+.content > ul > li div.postHeader img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 32px;
+}
+
+.content > ul > li div.postContent {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.content > ul > li div p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.content > ul > li div p strong {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.content > ul > li div p span {
+  margin-top: 5px;
+  font-size: 11px;
+  color: #9a9a9a;
+}

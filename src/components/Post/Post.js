@@ -1,20 +1,24 @@
-import React from 'react';
-import './Post.css';
+import React from "react";
+import "./Post.css";
 
-import Comment from '../Comment/Comment';
+import Comment from "../Comment/Comment";
 
 function Post({ data }) {
   return (
     <li className="Post">
-      <p>
-        <img src={data.author.avatar} width="50" alt="" />
-        <strong>{data.author.name}</strong>
-        <span>{data.date}</span>
-      </p>
-      <p>{data.content}</p>
-      {data.comments.map(comment => (
-        <Comment key={data.id} comments={data.comments[0]} />
-      ))}
+      <div className="postHeader">
+        <img class="avatar" src={data.author.avatar} alt="" />
+        <p>
+          <strong>{data.author.name}</strong>
+          <span>{data.date}</span>
+        </p>
+      </div>
+      <div className="postContent">{data.content}</div>
+      <ul>
+        {data.comments.map(comment => (
+          <Comment key={data.id} comment={comment} />
+        ))}
+      </ul>
     </li>
   );
 }

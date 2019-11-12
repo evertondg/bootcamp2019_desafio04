@@ -1,3 +1,35 @@
-.comment {
-  padding-left: 20px;
+.content > ul > li > ul > li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 25px;
+  padding-left: 10px;
+  font-size: 11px;
+  color: #9a9a9a;
+}
+
+.content > ul > li > ul > li img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 28px;
+}
+
+.content > ul > li > ul > li p {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-left: 10px;
+  background: #ededed;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: justify;
+  line-height: 14px;
+}
+
+.content > ul > li > ul > li p span {
+  color: #4a4a4a;
+  padding-right: 5px;
+  font-weight: bold;
 }

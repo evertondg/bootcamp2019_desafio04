@@ -10,8 +10,7 @@ section {
   justify-content: center;
 }
 
-ul {
-  background: #fff;
+.content > ul {
   width: 1100px;
   display: flex;
   flex-direction: column;
@@ -20,7 +19,4 @@ ul {
   border-radius: 5px;
   margin-top: 20px;
   padding: 20px;
-}
-
-ul li {
 }
